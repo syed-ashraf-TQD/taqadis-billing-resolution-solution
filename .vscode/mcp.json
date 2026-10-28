@@ -1,0 +1,26 @@
+{
+	"servers": {
+		"taqa-bills": {
+			"type": "stdio",
+			"command": "python",
+			"args": [
+				"${workspaceFolder}/taqa_mcp_server.py"
+			]
+		},
+		"my-mcp-server-e67d1d66": {
+			"type": "stdio",
+			"command": "taqa-bills",
+			"args": []
+		},
+		"my-mcp-server-77862b38": {
+			"type": "stdio",
+			"command": "CN-2972434",
+			"args": []
+		},
+		"my-mcp-server-7d3c70ce": {
+			"url": "list",
+			"type": "http"
+		}
+	},
+	"inputs": []
+}
